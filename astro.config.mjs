@@ -18,7 +18,7 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), db(), vue()],
 
   output: 'hybrid',
-  adapter: cloudflare()
+  adapter: cloudflare(),
 
 
   // output: 'hybrid',
